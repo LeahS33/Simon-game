@@ -1,12 +1,44 @@
-Project Summary:
+# Memory Game
 
-This project is a web-based memory game built with HTML, CSS, and JavaScript.
-It features a user authentication system with sign-up and login pages, allowing each player to track their high scores.
-The game interface is interactive and visually appealing, with responsive design and custom styles for a modern user experience.
-Players can compete to improve their memory skills and see their progress over time.
+A web-based memory game where users can sign up, log in, and play a Simon-style color sequence game. The project includes user authentication, score tracking, and a visually engaging interface.
 
-Features:
-1) User registration and login with input validation  
-2) High score tracking per user
-3) Animated, colorful game board
-4) Responsive and accessible design
+## Features
+
+- User sign-up and login with local storage
+- Input validation for registration
+- High score tracking per user (session-based)
+- Interactive memory game with increasing difficulty
+- Game over and win screens with animated effects
+
+## Folder Structure
+
+```
+audio/      # Sound effects for the game
+css/        # Stylesheets for all pages
+html/       # HTML files for each page (login, signup, game, win, end)
+images/     # Background images
+img/        # Icons (e.g., home button)
+js/         # JavaScript logic for login/signup and the game
+```
+
+## Getting Started
+
+1. Clone the repository.
+2. Open `html/logIn.html` in your browser to start.
+3. Sign up for a new account or log in with an existing one.
+4. Play the game and try to beat your high score!
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+## Credits
+
+- Background and icon images from [Wallcate.com](https://wallcate.com/) and [pngtree.com](https://pngtree.com/)
+- Sound effects from public domain sources
+
+## License
+
+This project is for educational purposes.
