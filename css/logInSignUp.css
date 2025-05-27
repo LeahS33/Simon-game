@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/‏‏pngtree-modern-double-color-futuristic-neon-background-image_351866\ -\ עותק.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#logIn,#signIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15vw;
+    padding-left: 40%;
+    padding-top: 15%;
+    box-shadow: 4px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(243, 207, 221, 0.911);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.login-title {
+    margin-bottom: 32px; /* or any value you want */
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 156, 222, 0.829);
+    font-size: 25px;
+}
+
+.input {
+    align-items: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height: 30px;
+    width: 300px;
+}
+
+#_logIn,
+#_signIn {
+    font-size: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    width: 190px;
+    height: 35px;
+    margin-left: 60px;
+    background-color: rgba(216, 216, 216, 0.959);
+}
+

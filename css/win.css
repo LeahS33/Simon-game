@@ -1,0 +1,53 @@
+
+body {
+    background: radial-gradient(circle at 60% 40%, #fffbe7 0%, #e0e7ff 100%);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Avenir', 'Segoe UI', Arial, sans-serif;
+}
+
+h1 {
+    color: #ffb300;
+    font-size: clamp(2.5rem, 8vw, 80px);
+    text-align: center;
+    margin: 0.5em 0;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px #fffde4, 0 0 40px #ffe082, 0 0 60px #fff;
+    animation: win-glow 2s infinite alternate;
+    font-weight: bold;
+}
+
+@keyframes win-glow {
+    from {
+        text-shadow: 0 0 10px #fffde4, 0 0 20px #ffe082, 0 0 30px #fff;
+    }
+    to {
+        text-shadow: 0 0 30px #fffde4, 0 0 60px #ffe082, 0 0 90px #fff;
+    }
+}
+
+.home_link {
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    margin-top: 2.5rem;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 30px 5px #ffe082, 0 0 10px 2px #fffde4;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 3px solid #fff;
+    background-color: #fffbe7;
+}
+
+.home_link:hover, .home_link:focus {
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0 0 50px 10px #ffe082, 0 0 20px 4px #fffde4;
+    outline: none;
+}
